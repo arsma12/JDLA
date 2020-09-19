@@ -1,0 +1,138 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=shift_jis" />
+<meta name="viewport" content="width=device-width" />
+<link rel="stylesheet" type="text/css" href="../MyStyle.css" />
+<title>グリッドサーチ</title>
+</head>
+
+<body bgcolor="#696969" text="#FFFAFA" link="#7FFFD4" vlink="#7FFFD4" alink="#7FFFD4">
+<h1 align="center">総仕上げ問題</h1>
+
+
+
+
+
+<table align="center" width="800" cellspacing="0" cellpadding="4">
+<tr><td>
+<hr />
+<p>
+44.次の文章を読み、空欄に最もよくあてはまる選択肢をそれぞれ1つずつ選べ。<br>
+<br>
+ハイパーパラメータの調節はエンジニアが手作業で行わなければならないが、たとえば、<br>
+調節しなければならないハイパーパラメータが複数にわたる場合など、エンジニアによる<br>
+手作業の調整が困難になるのが一般的である。<br>
+<br>
+・αのいくつかの候補をα0,α1,・・・,αL-1<br>
+・βのいくつかの候補をβ0,β1,・・・,βM-1<br>
+・Ｙのいくつかの候補をＹ0,Ｙ1,・・・,ＹN-1<br>
+<br>
+とする。このとき、ハイパーパラメータの候補となる組の層数は（ア）通りであるが、<br>
+この（ア）通りの候補でk分割交差検証を行い、最も性能の高いハイパーパラメータの組を<br>
+採用するというアイデアが考えられる。<br>
+このアイデアはハイパーパラメータの（イ）と呼ばれる。<br>
+（ウ）という欠点はあるが、Pythonでは自動的にこれを行う機構が整備されているので、<br>
+ハイパーパラメータの調整にはかなり役立つ手法といえるだろう。<br>
+</p>
+
+<table cellspacing="3" cellpadding="3">
+<tr valign="baseline">
+	<td nowrap>　ア</td>
+	<td><br>
+	A.　(L-1)(M-1)(N-1)<br>
+	B.　LMN<br>
+	C.　L+M+N<br>
+	D.　L+M+N-3<br>
+	<br></td>
+</tr>
+<tr valign="baseline">
+	<td nowrap>　イ</td>
+	<td><br>
+	A.　二分探索<br>
+	B.　クイックサーチ<br>
+	C.　グリッドサーチ<br>
+	D.　ベイズ最適化<br>
+	<br></td>
+</tr>
+<tr valign="baseline">
+	<td nowrap>　ウ</td>
+	<td><br>
+	A.　交差検証により計測した精度が低いことが多い<br>
+	B.　たくさんのモデルを作る必要があり、計算量が多くなる<br>
+	C.　単一のハイパーパラメータに対してこの手法が適用できない<br>
+	D.　試行錯誤でハイパーパラメータを調節したほうが良い結果が出ることも多い<br>
+	<br></td>
+</tr>
+</table>
+<hr />
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<br />
+<hr />
+
+
+<p><b><u>答え　Ｂ、Ｃ、Ｂ</u></b></p>
+<hr />
+
+
+<p>【<b>解説</b>】
+<table cellspacing="3" cellpadding="3">
+<tr valign="baseline">
+	<td nowrap>　</td>
+	<td>　交差検証の典型的な方式として「ハイパーパラメータのグリッドサーチ」に関する質問です。<br>
+	この問題では、調整（チューニング）したいハイパーパラメータ（エンジニアが事前に調節する<br>
+	必要があるパラメータ）α、β、Ｙの候補がそれぞれ、L、M、N個与えられているので、その組み合わせ<br>
+	パターンの総数はLMN個となります。（ア＝Ｂ）。<br>
+	<br>
+	ハイパーパラメータのグリッドサーチとは、事前に設定したハイパーパラメータの各候補に対して<br>
+	交差検証で精度を測り、最も精度が高かったハイパーパラメータの組を最良のハイパーパラメータ<br>
+	として採用するという、ハイパーパラメータの探索手法のことです。（イ＝Ｃ）。<br>
+	ハイパーパラメータの調節は基本的には手間がかかる作業ではありますが、このグリッドサーチを<br>
+	用いれば、ある程度のプロセスが自動化できます。<br>
+	計算量が多くなるという欠点はあります。（ウ＝Ｂ）が、非常によく用いられている手法です。<br>
+	</td>
+</tr>
+
+</table></p>
+<hr />
+</div>
+
+<p>
+<a href="javascript:window.history.back()"><img src="img/left.gif" border="0" align="middle" alt="" />戻る</a>
+<a href="index.html"><img src="img/up.gif" border="0" align="middle" alt="" />一覧へ</a>
+</p>
+
+<br />
+<hr />
+
+
+</td></tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,125 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=shift_jis" />
+<meta name="viewport" content="width=device-width" />
+<link rel="stylesheet" type="text/css" href="../MyStyle.css" />
+<title>重みの更新タイミング</title>
+</head>
+
+<body bgcolor="#696969" text="#FFFAFA" link="#7FFFD4" vlink="#7FFFD4" alink="#7FFFD4">
+<h1 align="center">総仕上げ問題</h1>
+
+
+
+
+
+<table align="center" width="800" cellspacing="0" cellpadding="4">
+<tr><td>
+<hr />
+<p>
+52.次の文章を読み、空欄に最もよくあてはまる選択肢をそれぞれ1つずつ選べ。<br>
+<br>
+ディープラーニングにおいて、重みを更新した回数を（ア）、訓練データを何回学習した<br>
+かの単位を（イ）と呼ぶ。<br>
+<br>
+ディープラーニングにおいては、得られている一部のデータのみをサンプリングし、<br>
+それらのデータに対して重みを1回更新するという手法が用いられ、以下のように大きく３つに分けることができる。<br>
+<br>
+・（ア）ごとに１つずつサンプルを利用する→（ウ）<br>
+・（ア）ごとに一定数のサンプルを利用する→（エ）<br>
+・（ア）ごとにすべての訓練データを利用する→（オ）<br>
+<br>
+（エ）は（ウ）よりも良い解を得られやすいことが知られており、広く用いられている。<br>
+</p>
+
+<table cellspacing="3" cellpadding="3">
+<tr valign="baseline">
+	<td nowrap>　ア～イ</td>
+	<td><br>
+	A.　エポック<br>
+	B.　レペティション<br>
+	C.　リライト<br>
+	D.　イテレーション<br>
+	</td>
+</tr>
+<tr valign="baseline">
+	<td nowrap>　ウ～オ</td>
+	<td><br>
+	A.　バッチ学習<br>
+	B.　マルチタスク学習<br>
+	C.　逐次学習<br>
+	D.　ミニバッチ学習<br>
+	</td>
+</tr>
+
+</table>
+<hr />
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<br />
+<hr />
+
+
+<p><b><u>答え　Ｄ、Ａ、Ｃ、Ｄ、Ａ</u></b></p>
+<hr />
+
+
+<p>【<b>解説</b>】
+<table cellspacing="3" cellpadding="3">
+<tr valign="baseline">
+	<td nowrap>　</td>
+	<td>　ディープラーニングで「重みの更新をどのタイミングで行うのか」は、非常に重要なポイントです。<br>
+	重みを更新した回数をイテレーション（ア＝Ｄ）、訓練データを何回学習したかをエポック（イ＝Ａ）と呼びます。<br>
+	ディープラーニングの学習は、重み更新のタイミングによって次の３つに大別できます。<br>
+	<br>
+	・逐次学習・・・・・１つのデータに対して誤差を計算し、重みを逐一更新（ウ＝Ｃ）。<br>
+	・ミニバッチ学習・・一部のサンプリングしたデータに対して誤差を計算し、重みを逐一更新（エ＝Ｄ）。<br>
+	・バッチ学習・・・・すべての訓練データに対して誤差を計算し、重みを更新（オ＝Ａ）<br>
+	<br>
+	特によく用いられるのはミニバッチ学習と呼ばれる手法で、これを用いると良い重みを得やすいことが知られています。<br>
+	</td>
+</tr>
+
+</table></p>
+<hr />
+</div>
+
+<p>
+<a href="javascript:window.history.back()"><img src="img/left.gif" border="0" align="middle" alt="" />戻る</a>
+<a href="index.html"><img src="img/up.gif" border="0" align="middle" alt="" />一覧へ</a>
+</p>
+
+<br />
+<hr />
+
+
+</td></tr>
+</table>
+</body>
+</html>

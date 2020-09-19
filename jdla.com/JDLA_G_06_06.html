@@ -1,0 +1,139 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=shift_jis" />
+<meta name="viewport" content="width=device-width" />
+<link rel="stylesheet" type="text/css" href="../MyStyle.css" />
+<title>畳み込みニューラルネットワーク</title>
+</head>
+
+<body bgcolor="#696969" text="#FFFAFA" link="#7FFFD4" vlink="#7FFFD4" alink="#7FFFD4">
+<h1 align="center">ディープラーニングの手法</h1>
+
+
+
+
+
+<table align="center" width="800" cellspacing="0" cellpadding="4">
+<tr><td>
+<hr />
+<p>
+6.次の文章を読み、空欄に最もよくあてはまる選択肢をそれぞれ1つずつ選べ。<br>
+<br>
+畳み込みニューラルネットワーク（CNN）は、特に（ア）への応用のために考案された<br>
+（イ）ニューラルネットワークの一種である。<br>
+畳み込みニューラルネットワークは、以下のような層をもつ。<br>
+<br>
+①フィルタを用いて積和演算を行う（ウ）<br>
+②平均値や最大値を用いてサブサンプリングを行う（エ）<br>
+③出力値を得るための（オ）<br>
+</p>
+
+<table cellspacing="3" cellpadding="3">
+<tr valign="baseline">
+	<td nowrap>　ア</td>
+	<td><br>
+	A.　時系列解析<br>
+	B.　画像認識<br>
+	C.　自然言語処理<br>
+	D.　次元削減<br>
+	</td>
+</tr>
+<tr valign="baseline">
+	<td nowrap>　イ</td>
+	<td><br>
+	A.　順伝播型<br>
+	B.　逆伝播型<br>
+	C.　再帰型<br>
+	D.　全結合型<br>
+	</td>
+</tr>
+<tr valign="baseline">
+	<td nowrap>　ウ～オ</td>
+	<td><br>
+	A.　全結合層<br>
+	B.　プーリング層<br>
+	C.　畳み込み層<br>
+	D.　フィルタリング層<br>
+	</td>
+</tr>
+</table>
+<hr />
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<br />
+<hr />
+
+
+<p><b><u>答え　Ｂ、Ａ、Ｃ、Ｂ、Ａ</u></b></p>
+<hr />
+
+
+<p>【<b>解説</b>】
+<table cellspacing="3" cellpadding="3">
+<tr valign="baseline">
+	<td nowrap>　</td>
+	<td>　畳み込みニューラルネットワーク（ＣＮＮ）とは、特に画像認識に応用する<br>
+	ために改良された（ア＝Ｂ）ディープニューラルネットワークの一種であり、<br>
+	たとえば、自動運転技術などに、非常に広く応用されています。<br>
+	入力は左から右方向にのみ伝播するので、畳み込みニューラルネットワークは<br>
+	順伝播型のニューラルネットワークの一種です。（イ＝Ａ）。<br>
+	畳み込み層とプーリング層は、層と層の間のノードが部分的にしか枝で結ばれない為、<br>
+	「全結合型」ではありません。<br>
+	<br>
+	入力（一般的には画像）はまず、フィルタを用いて積和演算＋活性化関数の作用を行う<br>
+	畳み込み層（ウ＝Ｃ）を通り、元の画像の特徴が抽出された小さな画像である特徴マップ<br>
+	に変換されます。<br>
+	これが何度が繰り返され、最後に出力層（プーリング層から出力された画像データを、<br>
+	縦横に並んだ2次元データから、一列に並べたフラットな1次元データに変換する全結合層）<br>
+	（オ＝Ａ）において出力値が得られます。<br>
+	畳み込みニューラルネットワークの次の流れを、まずは大まかにつかんでおきましょう。<br>
+	<br>
+	①畳み込み演算＋活性化関数（畳み込み層）<br>
+	②プーリング（プーリング層）<br>
+	③最後に出力値が得られる（全結合層）<br>
+	</td>
+</tr>
+
+</table></p>
+<hr />
+</div>
+
+<p>
+<a href="javascript:window.history.back()"><img src="img/left.gif" border="0" align="middle" alt="" />戻る</a>
+<a href="index.html"><img src="img/up.gif" border="0" align="middle" alt="" />一覧へ</a>
+</p>
+
+<br />
+<hr />
+
+
+</td></tr>
+</table>
+</body>
+</html>

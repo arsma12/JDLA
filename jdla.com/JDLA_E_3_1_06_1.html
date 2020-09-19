@@ -1,0 +1,119 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=shift_jis" />
+<meta name="viewport" content="width=device-width" />
+<link rel="stylesheet" type="text/css" href="../MyStyle.css" />
+<title>計算グラフ</title>
+</head>
+
+<body bgcolor="#696969" text="#FFFAFA" link="#7FFFD4" vlink="#7FFFD4" alink="#7FFFD4">
+<h1 align="center">計算グラフ</h1>
+
+
+<table align="center" width="800" cellspacing="0" cellpadding="4">
+<tr><td>
+<hr />
+
+
+<p>
+計算グラフ<br>
+<br>
+</p>
+
+
+<p>
+計算グラフの説明の前に、ニューラルネットワークの学習にはその過程において、<br>
+算出された出力（とある画像になにが描かれているか、などの判定などの出力結果）を<br>
+「勾配降下法」を用いて最適化していきます。<br>
+<br>
+その際、勾配を求めるために微分を行うわけですが、書籍の前半では「数値微分」を<br>
+用いて実装を行っていました。<br>
+<br>
+しかし計算処理の効率から、時間がかかるという難点があります。<br>
+そこでこの「誤差逆伝搬法」を用いることで、効率的かつ高速に計算を行おう（学習を行おう）というのが目的です。<br>
+<br>
+誤差逆伝搬法による入力と出力の関係を表しています。<br>
+（逆と名前がつく通り、入力と出力の方向が逆になっています）<br>
+</p>
+<table cellspacing="3" cellpadding="3">
+<tr valign="baseline">
+	<td>
+	<div align="center">
+	<img src="./img/JDLA_E_3_1_06_1_1.png" width="780" height="360" alt="">
+	</div><br>
+<br>
+<br>
+	</td>
+</tr>
+<tr valign="baseline">
+	<td>アフィンレイア（バッチ対応版）
+	</td>
+</tr>
+<tr valign="baseline">
+	<td>
+	<div align="center">
+	<img src="./img/JDLA_E_3_1_06_1_5.png" width="600" height="280" alt="">
+	</div>
+	</td>
+</tr>
+<tr valign="baseline">
+	<td>
+	<div align="center">
+	<img src="./img/JDLA_E_3_1_06_1_2.png" width="680" height="280" alt="">
+	</div><br>
+<br>
+<br>
+	</td>
+
+</tr>
+<tr valign="baseline">
+	<td>荷重減衰対応時の計算グラフ
+	</td>
+</tr>
+<tr valign="baseline">
+	<td>
+	<div align="center">
+	<img src="./img/JDLA_E_3_1_06_1_3.png" width="680" height="280" alt="">
+	</div><br>
+<br>
+<br>
+	</td>
+</tr>
+<tr valign="baseline">
+	<td>バッチ正規化の計算グラフ
+	</td>
+</tr>
+<tr valign="baseline">
+	<td>
+	<div align="center">
+	<img src="./img/JDLA_E_3_1_06_1_4.png" width="680" height="380" alt="">
+	</div>
+	</td>
+</tr>
+</table>
+
+
+
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+<hr />
+<p>
+<a href="javascript:window.history.back()"><img src="img/left.gif" border="0" align="middle" alt="" />戻る</a>
+<a href="index.html"><img src="img/up.gif" border="0" align="middle" alt="" />一覧へ</a>
+</p>
+<hr />
+
+
+</td></tr>
+</table>
+</body>
+</html>

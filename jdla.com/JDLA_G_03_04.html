@@ -1,0 +1,127 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=shift_jis" />
+<meta name="viewport" content="width=device-width" />
+<link rel="stylesheet" type="text/css" href="../MyStyle.css" />
+<title>JDLA_G_03_04</title>
+</head>
+
+<body bgcolor="#696969" text="#FFFAFA" link="#7FFFD4" vlink="#7FFFD4" alink="#7FFFD4">
+<h1 align="center">機械学習の具体的手法</h1>
+
+
+
+
+
+<table align="center" width="800" cellspacing="0" cellpadding="4">
+<tr><td>
+<hr />
+<p>
+4.次の文章を読み、空欄に最もよくあてはまる選択肢をそれぞれ1つずつ選べ。<br>
+<br>
+	論理回路において用いられる論理ゲートのひとつであるＡＮＤゲートとは、<br>
+	入力x1,x2に対して次のようなyを出力するゲートのことである。<br>
+	<div align="center">
+	<img src="./img/JDLA_G_03_04_1.png" width="160" height="100" alt="">
+	</div><br>
+	ＡＮＤゲートは、2入力パーセプトロンの重みを調節することにより実現することができる。<br>
+	同様に、ＯＲゲート、ＮＡＮＤゲートについても、２入力パーセプトロンの重みを調節して実現するこができる。<br>
+	しかし、以下のような入出力関係からなるＸＯＲゲートは、2入力パーセプトロンで実現することはできない。<br>
+	<div align="center">
+	<img src="./img/JDLA_G_03_04_2.png" width="160" height="100" alt="">
+	</div><br>
+	パーセプトロンで解くことができる問題を（ア）と呼ぶが、ＸＯＲゲートは（ア）ではない。<br>
+	しかし、いくつかのパーセプトロンを多層化した（イ）を用いることで、（ア）でない問題も解くことが可能になる。<br>
+	なお（イ）では、非線形な活性化関数を用いる必要がある。<br>
+</p>
+
+<table cellspacing="3" cellpadding="3">
+<tr valign="baseline">
+	<td nowrap>　ア</td>
+	<td><br>
+	A.　線形実現可能<br>
+	B.　線形予測可能<br>
+	C.　線形計算可能<br>
+	D.　線形分離可能<br>
+	<br></td>
+</tr>
+<tr valign="baseline">
+	<td nowrap>　イ</td>
+	<td><br>
+	A.　複雑パーセプトロン<br>
+	B.　非線形パーセプトロン<br>
+	C.　合成パーセプトロン<br>
+	D.　多層パーセプトロン<br>
+	<br></td>
+</tr>
+</table>
+<hr />
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<br />
+<hr />
+
+
+<p><b><u>答え　Ｄ、Ｄ</u></b></p>
+<hr />
+
+
+<p>【<b>解説</b>】
+<table cellspacing="3" cellpadding="3">
+<tr valign="baseline">
+	<td nowrap>　</td>
+	<td>　パーセプトロンは重みを調節することによってさまざまな識別器となりますが、<br>
+	パーセプトロンを使って解ける問題は、「直線を使って分離できるもの」に限られます。<br>
+	（このような「直接を使って完璧に２つのクラスに分類できる問題（２クラス問題）」を<br>
+	「線形分離可能」といいます）（ア＝Ｄ））<br>
+	<br>
+	このように線形分離不可能な分類問題は、パーセプトロンを次の図のように組み合わせた<br>
+	多層パーセプトロンを用いると解決できるようになります。（イ＝Ｄ）。<br>
+	実はこの多層パーセプトロンが、ニューラルネットワークの原型なのです。<br>
+	</td>
+</tr>
+
+</table></p>
+<hr />
+</div>
+
+<p>
+<a href="javascript:window.history.back()"><img src="img/left.gif" border="0" align="middle" alt="" />戻る</a>
+<a href="index.html"><img src="img/up.gif" border="0" align="middle" alt="" />一覧へ</a>
+<a href="JDLA_G_03_05.html"><img src="img/right.gif" border="0" align="middle" alt="" />次へ</a>
+</p>
+
+<br />
+<hr />
+
+
+</td></tr>
+</table>
+</body>
+</html>

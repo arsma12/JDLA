@@ -1,0 +1,138 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=shift_jis" />
+<meta name="viewport" content="width=device-width" />
+<link rel="stylesheet" type="text/css" href="../MyStyle.css" />
+<title>JDLA_G_03_09</title>
+</head>
+
+<body bgcolor="#696969" text="#FFFAFA" link="#7FFFD4" vlink="#7FFFD4" alink="#7FFFD4">
+<h1 align="center">機械学習の具体的手法</h1>
+
+
+
+
+
+<table align="center" width="800" cellspacing="0" cellpadding="4">
+<tr><td>
+<hr />
+<p>
+9.次の文章を読み、空欄に最もよくあてはまる選択肢をそれぞれ1つずつ選べ。<br>
+<br>
+kNN法とは、あるデータが属するクラスを、最も距離が近いデータから順にk個見て、（ア）により<br>
+判定するアルゴリズムである。<br>
+たとえば以下の図のようなシチュエーションでは、クラスが未知のデータxは、<br>
+・k=3の場合・・・・・クラス（イ）に属すると判定される。<br>
+・k=5の場合・・・・・クラス（ウ）に属すると判定される。<br>
+</p>
+
+<table cellspacing="3" cellpadding="3">
+<tr valign="baseline">
+	<td nowrap>　ア</td>
+	<td><br>
+	A.　平均<br>
+	B.　多数決<br>
+	C.　偶奇性<br>
+	D.　距離による重み付け<br>
+	<br></td>
+</tr>
+<tr valign="baseline">
+	<td nowrap>　イ～ウ</td>
+	<td><br>
+	A.　0<br>
+	B.　1<br>
+	<br></td>
+</tr>
+<tr valign="baseline">
+	<td nowrap>　エ</td>
+	<td><br>
+	A.　クラス数が多い<br>
+	B.　各クラスのデータ数に偏りがある<br>
+	C.　各クラスのデータ数が多い<br>
+	D.　各クラスのデータが正規化されていない<br>
+	<br></td>
+</tr>
+
+</table>
+<hr />
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<br />
+<hr />
+
+
+<p><b><u>答え　Ｂ、Ａ、Ｂ、Ｂ</u></b></p>
+<hr />
+
+
+<p>【<b>解説</b>】
+<table cellspacing="3" cellpadding="3">
+<tr valign="baseline">
+	<td nowrap>　</td>
+	<td>　kNN法（k Nearest Neighbor法）とは、クラス分類のアルゴリズムの一種であり、<br>
+	データから近い順にk個のデータを見て、それらの多数決によって、所属クラスを決定するという方法により<br>
+	クラス分類が行われます（ア＝Ｂ）。<br>
+	たとえば問題文で与えられている図の場合、<br>
+	<br>
+	・k=3の場合<br>
+	データxに近い順に３つのデータをみると、クラスは●×２、△×１となり、多数決では<br>
+	xはクラス0に属すると判定されます。（イ＝Ａ）<br>
+	<br>
+	・K=5の場合<br>
+	データxに近い順に5つのデータを見ると、クラスは●×２、△×３となり、多数決では<br>
+	xはクラス1に属すると判定されます。（ウ＝Ｂ）<br>
+	このようにkの値（これはエンジニアが事前に設定するハイパーパラメータです）によって、判定結果<br>
+	が異なるということも当然のように起こり得ます。<br>
+	kNN法は、各クラスのデータ数に偏りがあると、判定結果が不正確になってしまいます。（エ＝Ｂ）。<br>
+	<br>
+	このように、kNN法は実用上、<br>
+	・各クラスのデータ数の偏りがない<br>
+	・各クラスがよくわかれている<br>
+	ときしか精度が上がらないという弱点があります。<br>
+	</td>
+</tr>
+
+</table></p>
+<hr />
+</div>
+
+<p>
+<a href="javascript:window.history.back()"><img src="img/left.gif" border="0" align="middle" alt="" />戻る</a>
+<a href="index.html"><img src="img/up.gif" border="0" align="middle" alt="" />一覧へ</a>
+<a href="JDLA_G_03_10.html"><img src="img/right.gif" border="0" align="middle" alt="" />次へ</a>
+</p>
+
+<br />
+<hr />
+
+
+</td></tr>
+</table>
+</body>
+</html>

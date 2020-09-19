@@ -1,0 +1,118 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=shift_jis" />
+<meta name="viewport" content="width=device-width" />
+<link rel="stylesheet" type="text/css" href="../MyStyle.css" />
+<title>勾配消失問題</title>
+</head>
+
+<body bgcolor="#696969" text="#FFFAFA" link="#7FFFD4" vlink="#7FFFD4" alink="#7FFFD4">
+<h1 align="center">ディープラーニングの手法</h1>
+
+
+
+
+
+<table align="center" width="800" cellspacing="0" cellpadding="4">
+<tr><td>
+<hr />
+<p>
+3.次の文章を読み、空欄に最もよくあてはまる選択肢をそれぞれ1つずつ選べ。<br>
+<br>
+勾配消失問題とは、逆伝播の過程で誤差の勾配値が消失してしまい（ア）、<br>
+ディープラーニングにおいて生じやすい問題のことである。<br>
+中間層においては、勾配消失問題の影響が出にくい活性化関数として（イ）<br>
+がよく用いられる。<br>
+</p>
+
+<table cellspacing="3" cellpadding="3">
+<tr valign="baseline">
+	<td nowrap>　ア</td>
+	<td><br>
+	A.　局所最適解にトラップされてしまう。<br>
+	B.　鞍点にトラップされてしまう。<br>
+	C.　入力層付近での学習が進まなくなってしまう。<br>
+	D.　出力層付近での学習が進まなくなってしまう。<br>
+	</td>
+</tr>
+<tr valign="baseline">
+	<td nowrap>　イ</td>
+	<td><br>
+	A.　シグモイド関数<br>
+	B.　ReLU<br>
+	C.　ステップ関数<br>
+	D.　ソフトマックス関数<br>
+	</td>
+</tr>
+
+</table>
+<hr />
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<br />
+<hr />
+
+
+<p><b><u>答え　Ｃ、Ｂ</u></b></p>
+<hr />
+
+
+<p>【<b>解説</b>】
+<table cellspacing="3" cellpadding="3">
+<tr valign="baseline">
+	<td nowrap>　</td>
+	<td>　勾配消失問題とは、誤差の勾配を逆伝播する過程において、勾配の値が消失してしまい、<br>
+	入力層付近での学習が進まなくなるディープニューラルネットワーク特有の現象を指します。（ア＝Ｃ）。<br>
+	層が深いほど起こりやすく、ディープラーニングにおいては過学習と並んで常に気を付けなければならない問題<br>
+	として知られています。<br>
+	勾配消失問題は、活性化関数が何度も作用することにより勾配がちいさくなりすぎてしまうことが原因<br>
+	とされているので、たとえばReLU（Rectified Linear Unit）のように「正規化機能を持たない」<br>
+	活性化関数を中間層で用いるなどにより、ある程度、回避することが期待できます。（イ＝Ｂ）。<br>
+	代表的な活性化関数として、ReLUのほかに、ステップ関数、シグモイド関数、ソフトマックス関数、<br>
+	tanh（ハイパボリックタンジェント）関数などがあります。<br>
+	</td>
+</tr>
+
+</table></p>
+<hr />
+</div>
+
+<p>
+<a href="javascript:window.history.back()"><img src="img/left.gif" border="0" align="middle" alt="" />戻る</a>
+<a href="index.html"><img src="img/up.gif" border="0" align="middle" alt="" />一覧へ</a>
+</p>
+
+<br />
+<hr />
+
+
+</td></tr>
+</table>
+</body>
+</html>

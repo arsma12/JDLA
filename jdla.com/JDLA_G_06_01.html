@@ -1,0 +1,133 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=shift_jis" />
+<meta name="viewport" content="width=device-width" />
+<link rel="stylesheet" type="text/css" href="../MyStyle.css" />
+<title>過学習</title>
+</head>
+
+<body bgcolor="#696969" text="#FFFAFA" link="#7FFFD4" vlink="#7FFFD4" alink="#7FFFD4">
+<h1 align="center">ディープラーニングの手法</h1>
+
+
+
+
+
+<table align="center" width="800" cellspacing="0" cellpadding="4">
+<tr><td>
+<hr />
+<p>
+1.次の文章を読み、空欄に最もよくあてはまる選択肢をそれぞれ1つずつ選べ。<br>
+<br>
+過学習（過適合）とは、（ア）が小さいにもかかわらず、（イ）は小さくならない状態のことを指す<br>
+ディープニューラルネットワークも過学習を起こしやすいことが知られており、過学習を抑制するための<br>
+手法として、（ウ）などの正則化手法が用いられることが多い。<br>
+また、（エ）という、重みを更新する枝を一定の割合でランダムに無効化する手法も<br>
+ディープラーニングではよく用いられる。<br>
+</p>
+
+<table cellspacing="3" cellpadding="3">
+<tr valign="baseline">
+	<td nowrap>　ア～イ</td>
+	<td><br>
+	A.　汎化誤差<br>
+	B.　訓練誤差<br>
+	C.　二乗平均誤差<br>
+	D.　ヒンジ誤差<br>
+	</td>
+</tr>
+<tr valign="baseline">
+	<td nowrap>　ウ</td>
+	<td><br>
+	A.　蒸留<br>
+	B.　AdaGrad<br>
+	C.　LASSO<br>
+	D.　モメンタム<br>
+	</td>
+</tr>
+<tr valign="baseline">
+	<td nowrap>　エ</td>
+	<td><br>
+	A.　ドロップアウト<br>
+	B.　早期打ち切り<br>
+	C.　モンテカルロ法<br>
+	D.　ベイズ最適化<br>
+	</td>
+</tr>
+
+</table>
+<hr />
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<br />
+<hr />
+
+
+<p><b><u>答え　Ｂ、Ａ、Ｃ、Ａ</u></b></p>
+<hr />
+
+
+<p>【<b>解説</b>】
+<table cellspacing="3" cellpadding="3">
+<tr valign="baseline">
+	<td nowrap>　</td>
+	<td>　過学習とは、訓練誤差（ア＝Ｂ）は小さいにもかかわらず、汎化誤差（イ＝Ａ）が小さくならない状態です。<br>
+	訓練誤差とは学習に用いた訓練データに対する誤差で、これが小さいということは、訓練データに対しては正確な<br>
+	予測を行えることを意味します。<br>
+	また、汎化誤差とは、訓練にもちいていない未知の母集団に対する誤差の期待値で、これが小さくならないということは、<br>
+	未知のデータに対して正確な予測を行えなくなってしまっていることを示します。<br>
+	過学習を抑制するには、誤差関数にパラメータのノルムによる正則化（LASSOなど）（ウ＝Ｃ）に加えて、<br>
+	ディープニューラルネットワークにおいては、ドロップアウトという手法がよく用いられます。（エ＝Ａ）<br>
+	ドロップアウトとは、重み更新の際に、一定の割合でランダムに枝を無効化する手法で、単純ではありますが、<br>
+	効果が高いことが知られています。<br>
+	<br>
+	（ウ）の選択肢のAdaGrad、モメンタム勾配降下法の学習率の値に関する手法を指します。<br>
+	また、蒸留とは、大きいネットワークの入出力を小さいネットワークに再学習させる手法を指します。<br>
+	（エ）の選択肢の「早期打ち切り」は学習をある一定のタイミングで打ち切る手法、モンテカルロ法は<br>
+	シミュレーションや数値計算を乱数を用いて行う手法の総称です。<br>
+	</td>
+</tr>
+
+</table></p>
+<hr />
+</div>
+
+<p>
+<a href="javascript:window.history.back()"><img src="img/left.gif" border="0" align="middle" alt="" />戻る</a>
+<a href="index.html"><img src="img/up.gif" border="0" align="middle" alt="" />一覧へ</a>
+</p>
+
+<br />
+<hr />
+
+
+</td></tr>
+</table>
+</body>
+</html>

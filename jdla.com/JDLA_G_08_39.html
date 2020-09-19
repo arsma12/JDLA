@@ -1,0 +1,125 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=shift_jis" />
+<meta name="viewport" content="width=device-width" />
+<link rel="stylesheet" type="text/css" href="../MyStyle.css" />
+<title>正則化</title>
+</head>
+
+<body bgcolor="#696969" text="#FFFAFA" link="#7FFFD4" vlink="#7FFFD4" alink="#7FFFD4">
+<h1 align="center">総仕上げ問題</h1>
+
+
+
+
+
+<table align="center" width="800" cellspacing="0" cellpadding="4">
+<tr><td>
+<hr />
+<p>
+39.次の文章を読み、空欄に最もよくあてはまる選択肢をそれぞれ1つずつ選べ。<br>
+<br>
+機械学習を行う際には、モデルが過学習を起こさないよう注意しなければならない。<br>
+たとえば、正則化により（ア）ことで、過学習が緩和できることがある。<br>
+特に、（イ）は不要と判断された特徴量が自動的に消去される性質を持っており、<br>
+一方で（ウ）にはそのような機能がないが、パラメータが全体として大きくなり<br>
+すぎないように抑制を行う。<br>
+</p>
+
+<table cellspacing="3" cellpadding="3">
+<tr valign="baseline">
+	<td nowrap>　ア</td>
+	<td><br>
+	A.　データの平均が0、標準偏差1となるように変更移動する。<br>
+	B.　データの外れ値を消去する<br>
+	C.　パラメータのノルムが大きくなりすぎないようにする<br>
+	D.　学習回数をある程度のタイミングで打ち切る<br>
+	<br></td>
+</tr>
+<tr valign="baseline">
+	<td nowrap>　イ</td>
+	<td><br>
+	A.　Dropout<br>
+	B.　LASSO<br>
+	C.　AIC<br>
+	D.　SLOPE<br>
+	<br></td>
+</tr>
+<tr valign="baseline">
+	<td nowrap>　ウ</td>
+	<td><br>
+	A.　Ridge正則化<br>
+	B.　L0正則化<br>
+	C.　不良設定問題<br>
+	D.　凸緩和<br>
+	<br></td>
+</tr>
+</table>
+<hr />
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<br />
+<hr />
+
+
+<p><b><u>答え　Ｃ、Ｂ、Ａ</u></b></p>
+<hr />
+
+
+<p>【<b>解説</b>】
+<table cellspacing="3" cellpadding="3">
+<tr valign="baseline">
+	<td nowrap>　</td>
+	<td>　過学習は往々にして「複雑すぎるモデル」において起こることが知られており、<br>
+	「パラメータのノルムが大きくなりすぎないようにすれば過学習が抑制できるのでは」<br>
+	とくアイデアが正則化です。（ア＝Ｃ）。<br>
+	正則化にはさまざまな種類がありますが、代表的なものは次の２つです。<br>
+	<br>
+	・LASSO・・・・・・自動的に「特徴量の選択」が行われる性質を持つ（イ＝Ｂ）。<br>
+	・Ridge正則化・・・特徴量選択は行わないが、パラメータのノルムを小さく抑える（ウ＝A）<br>
+	</td>
+</tr>
+
+</table></p>
+<hr />
+</div>
+
+<p>
+<a href="javascript:window.history.back()"><img src="img/left.gif" border="0" align="middle" alt="" />戻る</a>
+<a href="index.html"><img src="img/up.gif" border="0" align="middle" alt="" />一覧へ</a>
+</p>
+
+<br />
+<hr />
+
+
+</td></tr>
+</table>
+</body>
+</html>

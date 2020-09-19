@@ -1,0 +1,116 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=shift_jis" />
+<meta name="viewport" content="width=device-width" />
+<link rel="stylesheet" type="text/css" href="../MyStyle.css" />
+<title>ホールドアウト法</title>
+</head>
+
+<body bgcolor="#696969" text="#FFFAFA" link="#7FFFD4" vlink="#7FFFD4" alink="#7FFFD4">
+<h1 align="center">総仕上げ問題</h1>
+
+
+
+
+
+<table align="center" width="800" cellspacing="0" cellpadding="4">
+<tr><td>
+<hr />
+<p>
+40.次の文章を読み、空欄に最もよくあてはまる選択肢をそれぞれ1つずつ選べ。<br>
+<br>
+モデルが学習を行う際に、通常は手元にある教師データをすべて使うことはない。<br>
+なぜなら、（ア）である。このような手法を（イ）と呼ぶ。<br>
+</p>
+
+<table cellspacing="3" cellpadding="3">
+<tr valign="baseline">
+	<td nowrap>　ア</td>
+	<td><br>
+	A.　学習に用いるデータの偏りを排除しなければならないから<br>
+	B.　モデルの汎化性能を推定するためのテストデータが必要だから<br>
+	C.　学習にかかる時間はなるべく削減しなければならないから<br>
+	D.　学習データを用いるすぎるとモデルが過学習を起こしてしまうから<br>
+	<br></td>
+</tr>
+<tr valign="baseline">
+	<td nowrap>　イ</td>
+	<td><br>
+	A.　ホールドアウト法<br>
+	B.　クロスバリデーション<br>
+	C.　ミニバッチ学習法<br>
+	D.　アクティブラーニング<br>
+	<br></td>
+</tr>
+</table>
+<hr />
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<br />
+<hr />
+
+
+<p><b><u>答え　Ｂ、Ａ</u></b></p>
+<hr />
+
+
+<p>【<b>解説</b>】
+<table cellspacing="3" cellpadding="3">
+<tr valign="baseline">
+	<td nowrap>　</td>
+	<td>　教師あり学習において、一般的には、教師データをすべて用いて学習を行うということはありあせん。<br>
+	なぜなら、「学習に使っていない教師データ」を少しだけ残しておかないと<br>
+	「モデルが未知のデータにも予測精度を発揮するかどうか」を測る術がなくなってしまうからです。（ア＝Ｂ）。
+	したがって、教師データを<br>
+	<br>
+	・訓練データ・・・学習に用いる分の教師データ<br>
+	・テストデータ・・未知データへの予測性能（汎化性能）を測るための教師データ<br>
+	<br>
+	に分割し、訓練データで学習→テストデータで検証という流れを踏むのが一般的です。<br>
+	このような手法をホールドアウト法と呼びます。（イ＝Ａ）。<br>
+	</td>
+</tr>
+
+</table></p>
+<hr />
+</div>
+
+<p>
+<a href="javascript:window.history.back()"><img src="img/left.gif" border="0" align="middle" alt="" />戻る</a>
+<a href="index.html"><img src="img/up.gif" border="0" align="middle" alt="" />一覧へ</a>
+</p>
+
+<br />
+<hr />
+
+
+</td></tr>
+</table>
+</body>
+</html>

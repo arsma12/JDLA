@@ -1,0 +1,136 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=shift_jis" />
+<meta name="viewport" content="width=device-width" />
+<link rel="stylesheet" type="text/css" href="../MyStyle.css" />
+<title>JDLA_G_03_10</title>
+</head>
+
+<body bgcolor="#696969" text="#FFFAFA" link="#7FFFD4" vlink="#7FFFD4" alink="#7FFFD4">
+<h1 align="center">機械学習の具体的手法</h1>
+
+
+
+
+
+<table align="center" width="800" cellspacing="0" cellpadding="4">
+<tr><td>
+<hr />
+<p>
+10.次の文章を読み、空欄に最もよくあてはまる選択肢をそれぞれ1つずつ選べ。<br>
+<br>
+教師なし学習の代表的な例として、クラスタリングがある。クラスタリングとは、（ア）<br>
+ことを指すが、その手法のひとつに、k-means法がある。<br>
+k-means法では、まずクラスタ数をあらかじめk個と設定し、各クラスタの中心となる点を<br>
+ランダムに生成する。<br>
+次に、各データを（イ）クラスタに属するものとして各クラスタの（ウ）を計算し、<br>
+クラスタの中心を（ウ）にずらす。<br>
+中心がずれると、（イ）クラスタが変わるデータが発生するので、また各データを<br>
+（イ）クラスタに割り振りなおす。<br>
+これを繰り返し、クラスタの中止が変化しなくなったら、クラスタリングを終える。<br>
+</p>
+
+<table cellspacing="3" cellpadding="3">
+<tr valign="baseline">
+	<td nowrap>　ア</td>
+	<td><br>
+	A.　入力データをデータ間の距離や類似度を手掛かりにいくつかのグループに分ける<br>
+	B.　データ同士の類似度を計算する<br>
+	C.　相関係数の高いデータをひとまとまりにする<br>
+	D.　データから外れ値を除外し、学習に用いることができるものだけを抽出する<br>
+	<br></td>
+</tr>
+<tr valign="baseline">
+	<td nowrap>　イ</td>
+	<td><br>
+	A.　中心からの距離が最も近い<br>
+	B.　クラスタ内分散が最も小さい<br>
+	C.　中心からの距離が最も離れている<br>
+	D.　クラスタ内分散が最も大きい<br>
+	<br></td>
+</tr>
+<tr valign="baseline">
+	<td nowrap>　ウ</td>
+	<td><br>
+	A.　内心<br>
+	B.　重心<br>
+	C.　垂心<br>
+	D.　傍心<br>
+	<br></td>
+</tr>
+
+</table>
+<hr />
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<br />
+<hr />
+
+
+<p><b><u>答え　Ａ、Ａ、Ｂ</u></b></p>
+<hr />
+
+
+<p>【<b>解説</b>】
+<table cellspacing="3" cellpadding="3">
+<tr valign="baseline">
+	<td nowrap>　</td>
+	<td>　クラスタリングとは、教師なし学習の一種であり、「データをいくつかのクラスタ（まとまり）<br>
+	に分ける」ことを指しました。<br>
+	これはすなわち、データがもっている「まとまり」の構造をデータの形のみから抽出しているということもできます。（ア＝Ａ）<br>
+	k-means法は、クラスタリングにおいてよく用いられるアルゴリズムです。<br>
+	「クラスタの中心を純真の位置にずらす」ことがポイントです。<br>
+	<br>
+	k-means法の流れを、次に示します。<br>
+	①クラスタの中心をランダムに生成<br>
+	②各データを最も近いクラスタに属するとする（イ＝Ａ）<br>
+	③中心を重心の位置にずらす（ウ＝Ｂ）<br>
+	④属するクラスタが変わったデータをつなぎなおす<br>
+	⑤また重心を計算。クラスタの中心が変化しなくなるまで繰り返す<br>
+	</td>
+</tr>
+
+</table></p>
+<hr />
+</div>
+
+<p>
+<a href="javascript:window.history.back()"><img src="img/left.gif" border="0" align="middle" alt="" />戻る</a>
+<a href="index.html"><img src="img/up.gif" border="0" align="middle" alt="" />一覧へ</a>
+<a href="JDLA_G_04_01.html"><img src="img/right.gif" border="0" align="middle" alt="" />次へ</a>
+</p>
+
+<br />
+<hr />
+
+
+</td></tr>
+</table>
+</body>
+</html>

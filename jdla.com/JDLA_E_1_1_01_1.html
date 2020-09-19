@@ -1,0 +1,196 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=shift_jis" />
+<meta name="viewport" content="width=device-width" />
+<link rel="stylesheet" type="text/css" href="../MyStyle.css" />
+<title>特異値分解</title>
+</head>
+
+<body bgcolor="#696969" text="#FFFAFA" link="#7FFFD4" vlink="#7FFFD4" alink="#7FFFD4">
+<h1 align="center">特異値分解</h1>
+
+
+<table align="center" width="800" cellspacing="0" cellpadding="4">
+<tr><td>
+<hr />
+
+
+<p>
+固有値と固有ベクトル<br>
+参照動画（<a href="https://www.youtube.com/watch?v=p1dtgAz7W_k">特異値分解PART1：固有値分解</a>）<br>
+<br>
+</p>
+
+
+<p>
+正方行列Aとベクトルvとスカラーλは以下の関係を満たす場合、vはAの固有ベクトル、λはAの固有値という。<br>
+</p>
+<table cellspacing="3" cellpadding="3">
+<tr valign="baseline">
+	<td>
+	<div align="center">
+	<img src="./img/JDLA_E_1_1_01_1_1.png" width="160" height="100" alt="">
+	</div>
+	</td>
+</tr>
+</table>
+
+<p>
+ある正方行列の固有値λと固有ベクトルvはどのように求めるのか？<br>
+</p>
+<table cellspacing="3" cellpadding="3">
+<tr valign="baseline">
+	<td>
+	<div align="center">
+	<img src="./img/JDLA_E_1_1_01_1_2.png" width="250" height="150" alt="">
+	</div>
+	</td>
+	<td>
+	<div align="center">
+	<img src="./img/JDLA_E_1_1_01_1_3.png" width="250" height="150" alt="">
+	</div>
+	</td>
+</tr>
+</table>
+
+<p>
+全部の固有ベクトルをVに、全部の固有値をΛにまとめて求めよう。<br>
+</p>
+<table cellspacing="3" cellpadding="3">
+<tr valign="baseline">
+	<td>
+	<div align="center">
+	<img src="./img/JDLA_E_1_1_01_1_4.png" width="250" height="150" alt="">
+	</div>
+	</td>
+</tr>
+</table>
+
+
+<p>
+固有値分解とは→ある正方行列Aを他の行列に分解できることを意味する。<br>
+</p>
+<table cellspacing="3" cellpadding="3">
+<tr valign="baseline">
+	<td>
+	<div align="center">
+	<img src="./img/JDLA_E_1_1_01_1_5.png" width="250" height="150" alt="">
+	</div>
+	</td>
+</tr>
+</table>
+
+
+<hr />
+
+<p>
+特異値分解<br>
+参照動画（<a href="https://www.youtube.com/watch?v=CUtT2Pi3ITQ">特異値分解PART2：特異値分解</a>）<br>
+<br>
+</p>
+
+<p>
+Aは正方行列であれば、固有値分解ができる。Aが長方行列の場合は、特異値分解ができる。<br>
+</p>
+<table cellspacing="3" cellpadding="3">
+<tr valign="baseline">
+	<td>
+	<div align="center">
+	<img src="./img/JDLA_E_1_1_01_1_6.png" width="250" height="120" alt="">
+	</div>
+	</td>
+</tr>
+</table>
+
+<p>
+固有値分解と特異値分解の比較<br>
+→特異値分解A（正方行列）＝固有ベクトルと固有値はセットになっている。<br>
+→固有値分解A（長方行列）＝左特異ベクトルと右特異ベクトルと特異値はセットになっている。<br>
+</p>
+<table cellspacing="3" cellpadding="3">
+<tr valign="baseline">
+	<td>
+	<div align="center">
+	<img src="./img/JDLA_E_1_1_01_1_7.png" width="350" height="200" alt="">
+	</div>
+	</td>
+</tr>
+</table>
+
+<p>
+特異値の求め方<br>
+AA^Tの固有値を求めることによって、Aの特異値は求められる。<br>
+</p>
+<table cellspacing="3" cellpadding="3">
+<tr valign="baseline">
+	<td>
+	<div align="center">
+	<img src="./img/JDLA_E_1_1_01_1_8.png" width="250" height="150" alt="">
+	</div>
+	</td>
+</tr>
+</table>
+
+<p>
+特異値ベクトルの求め方<br>
+AA^Tの固有ベクトルを求めることによって、Aの特異ベクトルは求められる。<br>
+</p>
+<table cellspacing="3" cellpadding="3">
+<tr valign="baseline">
+	<td>
+	<div align="center">
+	<img src="./img/JDLA_E_1_1_01_1_9.png" width="250" height="150" alt="">
+	</div>
+	</td>
+</tr>
+</table>
+
+<p>
+特異値分解<br>
+</p>
+<table cellspacing="3" cellpadding="3">
+<tr valign="baseline">
+	<td>
+	<div align="center">
+	<img src="./img/JDLA_E_1_1_01_1_10.png" width="250" height="150" alt="">
+	</div>
+	</td>
+</tr>
+</table>
+
+<p>
+次元削減<br>
+</p>
+<table cellspacing="3" cellpadding="3">
+<tr valign="baseline">
+	<td>
+	<div align="center">
+	<img src="./img/JDLA_E_1_1_01_1_11.png" width="350" height="220" alt="">
+	</div>
+	</td>
+</tr>
+</table>
+
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+<hr />
+<p>
+<a href="javascript:window.history.back()"><img src="img/left.gif" border="0" align="middle" alt="" />戻る</a>
+<a href="index.html"><img src="img/up.gif" border="0" align="middle" alt="" />一覧へ</a>
+</p>
+<hr />
+
+
+</td></tr>
+</table>
+</body>
+</html>
